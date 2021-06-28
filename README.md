@@ -1,3 +1,3 @@
-# Danielftosta176.cf is back
+# danielftosta176.cf is public!
 
-### W.I.P this site is under construction, we uploading files and the site will work again.
+### Just go to the http://danielftosta176.cf/
