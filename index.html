@@ -7,8 +7,17 @@
 
 <div class="wuef1">
     <h1>W.I.P!</h1>
-    <p>This site is under mainentance, See you later!</p>
+    <p id="translate">Esse site está em Construção, Volte depois!</p>
+   <p id="translatefunction">Translate to english</p>
 </div>
+<script>
+document.getElementById("translatefunction").onclick = translate1();
+   
+function translate1() {
+  document.getElementById("translatefunction").innerHTML = "";
+  document.getElementById("translate").innerHTML = "This site is under mainentance, See you later!";
+}
+</script>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
