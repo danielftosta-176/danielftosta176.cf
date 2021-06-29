@@ -22,6 +22,16 @@ body {
     margin: auto;
 }
 
+.unclicked {
+    border: #ffffff 0px solid;
+    color: #707070;
+}
+
+.clicked {
+    border: #ffffff 1px solid;
+    color: #ffffff;
+}
+
 a {
     color: #ffffff;
 }
