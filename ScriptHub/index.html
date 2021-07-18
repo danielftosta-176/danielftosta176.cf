@@ -4,7 +4,27 @@
   <link rel="stylesheet" href="style.css">
   <meta name="description" content="DANIELEFTOSTA 176 - Site">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+<script>
+      function openPage(pageName,elmnt,color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+      }
+
+      document.getElementById("defaultOpen").click();
+</script>
+</body>
 </head>
 
 <div class="wuef1">
@@ -14,13 +34,31 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
+<button class="tablink" onclick="openPage('a1', this, 'red')">Backdoor.exe</button>
+<button class="tablink" onclick="openPage('a2', this, 'green')" id="defaultOpen">-</button>
+<button class="tablink" onclick="openPage('a3', this, 'blue')">-</button>
+<button class="tablink" onclick="openPage('a4', this, 'orange')">-</button>
 
-<div class="s1">
+<div id="a1" class="tabcontent"><br><br><br>
   <img src="img/backdoorv4.png">
   <h1>Backdoor.exe</h1>
   <p>Backdoor.exe is an Backdoor finder. this Script/GUI finds any backdoor or RemoteEvent on any ROBLOX Game.</p>
   <span>Backdoor.exe's Discord Server:</span><a href="https://discord.gg/AjWqbpKSmB">Click here</a>
   <p></p>
   <a href="scripts/backdoorexe.html" class="btn"><i class="fa fa-download"></i> Download</a>
+</div>
+
+<div id="a2" class="tabcontent">
+  <h3>News</h3>
+  <p>Some news this fine day!</p> 
+</div>
+
+<div id="a3" class="tabcontent">
+  <h3>Contact</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="a4" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
 </div>

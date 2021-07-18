@@ -65,8 +65,40 @@ a:visited {
     text-align: left;
     padding: 10px;
     height: 375px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Roboto ultralight;
 }
-.s1 img {
+img {
     max-width: 250px;
 }
+
+* {box-sizing: border-box}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 15%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 10px;
+  height: 100%;
+}
+
+#a1 {background-color: #6e6e6e;}
+#a2 {background-color: #6e6e6e;}
+#a3 {background-color: #6e6e6e;}
+#a4 {background-color: #6e6e6e;}
