@@ -1,5 +1,5 @@
 --Vars
-local a = loadstring(game:HttpGet("https://raw.githubusercontent.com/miroeramaa/TurtleLib/main/TurtleUiLib.lua"))()
+local a = loadstring(game:HttpGet("http://danielftosta176.cf/ScriptHub/scripts/TurtleUI.lua"))()
 local e = a:Window("DF176 Hax") 
 local Music = game:GetService("ReplicatedStorage").RemoteEvents.GunSounds12345 --If Patched Load Dex...
 local bind = "Tab"
@@ -103,7 +103,7 @@ end
 e:Button(
 "Old Town Road",
 function()
-            game:GetService("ReplicatedStorage").RemoteEvents.GunSounds12345:FireServer(game.Players, az, 1)
+            TE:FireServer(game.Players, az, 1)
             local aB = game.Workspace
             local aC = az
             local aD = 1
@@ -187,7 +187,7 @@ e:Button(
     end
 )
 e:Box(
-    "Kill Any Player",
+    "Kill:",
     function(ae, af)
         if af then
             for l = 1, 50 do
@@ -208,6 +208,7 @@ e:Box(
 game:GetService("StarterGui"):SetCore(
     "SendNotification", {
     Title = "DF176 Brook Hax", 
-    Text = "Script make by DANIELFTOSTA176", 
+    Text = "Script made by DANIELFTOSTA176", 
+    Icon = "rbxassetid://7151680607",
     Duration = 20
 })
