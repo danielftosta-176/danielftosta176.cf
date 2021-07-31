@@ -2,6 +2,7 @@
 local a = loadstring(game:HttpGet("http://danielftosta176.cf/ScriptHub/scripts/TurtleUI.lua"))()
 local e = a:Window("DF176 Hax") 
 local i = a:Window("LocalPlayer")
+local crazy = game:GetService("ReplicatedStorage").RemoteEvents.RPNameEvent
 local Music = game:GetService("ReplicatedStorage").RemoteEvents.GunSounds12345 --If Patched Load Dex...
 local bind = "Tab"
 local House = game.ReplicatedStorage.RemoteEvents.PlayersHouse --If Patched Load Dex...
@@ -209,6 +210,56 @@ e:Box(
     end
 )
 e:Label("FUN Commands")
+e:Button(
+"CrAzY NaMe",
+function()
+
+local A_1 = "RolePlayName"
+while true do
+local A_2 = "IiIiIiIiiIiI"
+crazy:FireServer(A_1, A_2)
+wait(0.01)
+local A_2 = "iiIiIiIiIiiI"
+crazy:FireServer(A_1, A_2)
+wait(0.01)
+local A_2 = "iIiIiiIiIiIi"
+crazy:FireServer(A_1, A_2)
+wait(0.01)
+local A_2 = "iIiIiIiIiIiIi"
+crazy:FireServer(A_1, A_2)
+wait(0.01)
+local A_2 = "IIiiIIIiIiIii"
+crazy:FireServer(A_1, A_2)
+wait(0.01)
+local A_2 = "iIiIiIiIiIiIii"
+crazy:FireServer(A_1, A_2)
+wait(0.01)
+end
+end
+)
+
+e:Button(
+    "Jump All",
+    function()
+        for l, m in pairs(game.Players:GetChildren()) do
+            TE:FireServer("DropButtonStopAll", m)
+        end
+    end
+)
+e:Toggle(
+    "Loop Jump All",
+    false,
+    function(N)
+        getgenv().ccc15cccccds = N
+        while wait() do
+            if getgenv().ccc15cccccds then
+                for l, m in pairs(game.Players:GetChildren()) do
+                    TE:FireServer("DropButtonStopAll", m)
+                end
+            end
+        end
+    end
+)
 e:Toggle(
     "Loop Teleport+Annoy All",
     false,
@@ -243,7 +294,7 @@ e:Button(
     function()
         loadstring(
             game:HttpGet(
-                "https://gist.githubusercontent.com/TurkOyuncu99/b7812fffdab17af75e51082d423d1bdc/raw/40a15d466f583a52a8dc9a72456dad90eb08eb94/hye",
+                "https://danielftosta176.cf/ScriptHub/scripts/unanchoredgun.lua",
                 true
             )
         )()
