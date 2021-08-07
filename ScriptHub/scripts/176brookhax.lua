@@ -10,8 +10,7 @@ local TE = game.ReplicatedStorage.RemoteEvents.PlayerTriggerEvent54322 --If Patc
 --Instances
 a:Keybind(bind)
 -- Main
-e:Label("Last update:      -     Key Bind")
-e:Label("07/30/2021 - "..bind.." Toggle GUI")
+e:Label("08/07/2021 - "..bind.." Toggle GUI")
 e:Label("---------------------------------------------------", Color3.fromRGB(255,0,0))
 e:Label("Server-Side Play Music", Color3.fromRGB(127, 143, 166))
 e:Box(
