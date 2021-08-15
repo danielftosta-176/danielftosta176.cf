@@ -69,9 +69,6 @@ local function ZBQMJV_fake_script() -- AD.iNTRO
 	local script = Instance.new('LocalScript', AD)
 
 	local frame = script.Parent
-	local leveract = script.Parent.LeverActivator
-	leveract.Parent = game.Workspace
-	leveract.Disabled = false
 	frame.Size = UDim2.new(0,0, 0.21,0)
 	frame:TweenSize(
 		UDim2.new(0.176,0, 0.21,0),
