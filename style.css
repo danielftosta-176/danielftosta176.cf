@@ -1,3 +1,33 @@
+@font-face {
+    font-family: 'Metropolis-SemiBold';
+    src: local('Metropolis Semi Bold'), local('Metropolis-Semi-Bold'),
+        url('Metropolis-SemiBold.woff2') format('woff2'),
+        url('Metropolis-SemiBold.woff') format('woff'),
+        url('Metropolis-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis-Medium';
+    src: local('Metropolis Medium'), local('Metropolis-Medium'),
+        url('Metropolis-Medium.woff2') format('woff2'),
+        url('Metropolis-Medium.woff') format('woff'),
+        url('Metropolis-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis-Bold';
+    src: local('Metropolis Bold'), local('Metropolis-Bold'),
+        url('Metropolis-Bold.woff2') format('woff2'),
+        url('Metropolis-Bold.woff') format('woff'),
+        url('Metropolis-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
 body {
     color: #ffffff;
     background: url("./img/img.webp");
@@ -68,6 +98,15 @@ a:visited {
 
 img {
     max-width: 250px;
+}
+
+.footer {
+font-family: Metropolis-Bold;
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+background-color: #4e4e4e;
 }
 
 @keyframes s {
