@@ -3,15 +3,14 @@ local a = loadstring(game:HttpGet("http://danielftosta176.cf/ScriptHub/scripts/T
 local e = a:Window("DF176 Hax") 
 local i = a:Window("LocalPlayer")
 local crazy = game:GetService("ReplicatedStorage").RemoteEvents.RPNameEvent
-local Music = game:GetService("ReplicatedStorage").RemoteEvents.GunSounds12345 --If Patched Load Dex...
+local Music = game:GetService("ReplicatedStorage").RemoteEvents.GunSounds12346 --If Patched Load Dex...
 local bind = "Tab"
 local House = game.ReplicatedStorage.RemoteEvents.PlayersHouse --If Patched Load Dex...
-local TE = game.ReplicatedStorage.RemoteEvents.PlayerTriggerEvent54321 --If Patched Load Dex...
+local TE = game.ReplicatedStorage.RemoteEvents.PlayerTriggerEvent54322 --If Patched Load Dex...
 --Instances
 a:Keybind(bind)
 -- Main
-e:Label("Last update:      -     Key Bind")
-e:Label("07/30/2021 - "..bind.." Toggle GUI")
+e:Label("08/07/2021 - "..bind.." Toggle GUI")
 e:Label("---------------------------------------------------", Color3.fromRGB(255,0,0))
 e:Label("Server-Side Play Music", Color3.fromRGB(127, 143, 166))
 e:Box(
