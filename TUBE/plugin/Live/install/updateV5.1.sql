@@ -1,2 +1,0 @@
-ALTER TABLE `live_servers` 
-ADD COLUMN `restreamerURL` VARCHAR(255) NULL DEFAULT NULL;
