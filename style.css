@@ -67,6 +67,8 @@ body {
 
 a {
     color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
 }
 
 a:link {
