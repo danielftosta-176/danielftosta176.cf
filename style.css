@@ -6,6 +6,7 @@
 	--main-decor-color:#00a9e2;
     --main-header-background:#21252e;
 	--main-font-family: 'Poppins', sans-serif;
+	--main-bgurl: 'https://img.freepik.com/vetores-gratis/fundo-digital-do-espaco-azul-da-copia_23-2148821698.jpg?size=626&ext=jpg&ga=GA1.1.1592494006.1643328000';
 }
 
 *{
@@ -45,6 +46,25 @@ header{
 header:hover{
 	opacity: 1;
 	background: var(--main-header-background);
+}
+
+.link {
+	margin: 5px;
+	font-size:1.2rem;
+	font-family: var(--main-font-family);
+	text-decoration: none;
+	color: #00a9e2;
+	text-align:center;
+	cursor: pointer;
+}
+.link:hover {
+	margin: 5px;
+	font-size:1.2rem;
+	font-family: var(--main-font-family);
+	text-decoration: none;
+	color: #00759c;
+	text-align:center;
+	cursor: pointer;
 }
 
 .logo img{
