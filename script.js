@@ -38,21 +38,6 @@ const toEnglish = () => {
 
 	document.getElementById("gtranslate").onclick = () => {
 		document.write = `
-		<!DOCTYPE html>
-<html>
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-			<meta name="yandex-verification" content="7f22e755e8c2af39" />
-      <title>DANIELFTOSTA176</title>
-      <link href="style.css" rel="stylesheet" type="text/css" />
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-      <link rel="icon" href="">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="script.js"></script>
-  </head>
-    <body>
-	  
         <div class="container">
 	  
 		<!--────────────────Header───────────────-->
@@ -123,26 +108,10 @@ const toEnglish = () => {
      </footer>
 	  
   </div>
-  </body>
-</html>
 		`
 	}
 	document.getElementById("gtranslate2").onclick = () => {
-		document.write = `
-		<!DOCTYPE html>
-<html>
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-			<meta name="yandex-verification" content="7f22e755e8c2af39" />
-      <title>DANIELFTOSTA176</title>
-      <link href="style.css" rel="stylesheet" type="text/css" />
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-      <link rel="icon" href="">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="script.js"></script>
-  </head>
-    <body>
+		document.body.innerHTML = `
 	  
         <div class="container">
 	  
@@ -214,8 +183,6 @@ const toEnglish = () => {
      </footer>
 	  
   </div>
-  </body>
-</html>
 		`
 	}
 }
