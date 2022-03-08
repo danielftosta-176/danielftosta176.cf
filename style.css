@@ -59,6 +59,14 @@ header:hover{
 	display: inline-flex;
 }
 
+#gtranslate {
+	margin: 5px;
+	font-size:1.2rem;
+	font-family: var(--main-font-family);
+	text-align:center;
+	cursor: pointer;
+}
+
 a.nav-link{
 	margin: 2px;
 	padding: 5px 10px;
