@@ -53,7 +53,7 @@ window.onload = () => {
 		</a>
 		<nav>	
 		 <ul class="nav-bar"><div class="bg"></div>
-			<li><a class="nav-link active" href="#home">TO ENGLISH</a></li>
+			<li><a class="nav-link active" href="#home"><<< Going to Choose Language</a></li>
 		 </ul>
 			
 			<div class="hamburger">
@@ -69,13 +69,13 @@ window.onload = () => {
 		 <div class="filter"></div>
 		 <section class="intro">
 		  <h3>DANIELFTOSTA176.<hr></h3>
-		  <p>Going to English version</p>	 
+		  <p>Choose Language</p>	 
 		 </section> 
 	  </div>  
 	</main>
 		`
 		setTimeout(function() {
-			window.location.href = "./en-US"
+			window.location.href = "../"
 		}, 100)
 	}
 }
