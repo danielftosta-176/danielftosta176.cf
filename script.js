@@ -43,7 +43,39 @@ const navSlide = () => {
 window.onload = () => navSlide();
 window.onload = () => {
 	document.getElementById("gtranslate").onclick = () => {
-		document.write = "Translating"
-
+		document.body.innerHTML = `
+		<div class="container">
+	  
+		<!--────────────────Header───────────────-->
+	<header>
+		<a class="logo" href="#home">
+              <img src="" alt="" />
+		</a>
+		<nav>	
+		 <ul class="nav-bar"><div class="bg"></div>
+			<li><a class="nav-link active" href="#home">TO ENGLISH</a></li>
+		 </ul>
+			
+			<div class="hamburger">
+				<div class="line1"></div>
+            <div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+		</nav>
+	</header>
+	</div>
+	<main>
+	<div id="home">
+		 <div class="filter"></div>
+		 <section class="intro">
+		  <h3>DANIELFTOSTA176.<hr></h3>
+		  <p>Going to English version</p>	 
+		 </section> 
+	  </div>  
+	</main>
+		`
+		setTimeout(function() {
+			window.location.href = "./en-US"
+		}, 100)
 	}
 }
