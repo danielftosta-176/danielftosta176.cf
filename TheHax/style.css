@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,300italic,400italic);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+body {
+  background: #e2e1e0;
+  text-align: center;
+  padding: 90px 0 0 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.card {
+  background: #fff;
+  border-radius: 2px;
+  display: block;
+  min-height: 150px;
+  margin: 1rem auto;
+  position: relative;
+  width: 900px;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.card-1 {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-2 {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.card-3 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-5 {
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.card h2, .card h1 {
+  display: block;
+  color: #6580B2;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.card span.filename {
+  display: block;
+  text-align: left;
+  color: #A3A3A3;
+  margin: 10px 0;
+}
+
+.card h2.changelog_title {
+  margin: 50px 0 0 0;
+  font-size: 20px;
+  padding: 0 0 10px 0;
+  color: #555;
+  border-bottom: 1px solid #CCC;
+}
+
+.card .changelog {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  text-align: left;
+  color: #555;
+}
+
+.card .changelog ul {
+  padding: 10px 0 0 18px;
+  margin: 0;
+}
+
+.card a.btn {
+  height: 45px;
+  padding: 0 25px;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 1px;
+  background-color: #2196f3;
+  border: none;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.1);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.1);
+  box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.1);
+  margin: 25px 0 15px 0;
+  display: inline-block;
+  line-height: 45px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  background: #696969;
+  box-sizing: border-box;
+  padding: 0 25px;
+  z-index: 99;
+}
+
+.header h1 {
+  display: inline-block;
+  height: 75px;
+  line-height: 75px;
+  color: #FFF;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  float: left;
+}
+
+.header a {
+  display: inline-block;
+  height: 75px;
+  line-height: 75px;
+  text-decoration: none;
+  color: #FAFAFA;
+  font-size: 28px;
+  float: right;
+  padding: 0 30px;
+  transition: all 0.22s ease;
+}
+
+.header a:hover {
+  color: #CCC;
+}
