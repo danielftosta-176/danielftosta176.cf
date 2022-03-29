@@ -24,7 +24,7 @@
     <div class="container">
         <section id="main_content">
             <p id="paaaragraf">404</p>
-					<a href="/TheHax">Voltar <<</a>
+					<a href="/">Voltar <<</a>
         </section>
     </div>
 </body>
