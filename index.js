@@ -2,6 +2,7 @@ const express = require('express');//Set up the express module
 const app = express();
 const router = express.Router();
 const path = require('path')//Include the Path module
+var port = 80
 
 //Set up the Express router
 router.get('/', function(req, res){
@@ -21,6 +22,6 @@ app.use(function(req, res, next) {
 
 
 //set up the Express server to listen on port 3000 and logs some messages when the server is ready
-let server = app.listen(3000, function(){
-  console.log("App server is running on port 3000");
+let server = app.listen(port, function(){
+  console.log("App server is running on port " + port);
 });
