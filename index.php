@@ -9,8 +9,7 @@
     <meta name="msapplication-navbutton-color" content="#151515">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>DANIELFTOSTA176</title>
-    <meta name="description" content="Hi." />
-    <link rel="canonical" href="/another-page.html" />
+    <meta name="description" content="Oi." />
 </head>
 <body>
     <header>
@@ -18,7 +17,7 @@
             <a id="a-title" >
                 <h1>DANIELFTOSTA176.cf</h1>
             </a>
-            <h2>Main Site</h2>
+            <h2>Site</h2>
 
             <section id="downloads">
                 <a href="https://github.com/danielftosta-176" class="btn btn-github"><span class="icon"></span>GitHub</a>
@@ -27,10 +26,10 @@
     </header>
     <div class="container">
         <section id="main_content">
-            <h2 id="welcome-to-another-page">Welcome</h2>
-            <p id="paaaragraf">Hello, Welcome</p>
+            <h2 id="welcome-to-another-page">Bem Vindo</h2>
+            <p id="paaaragraf">Oi.</p>
 						<h2 id="welcome-to-another-	page">TheHax</h2>
-					<a href="/TheHax">Go >></a>
+					<a href="/TheHax">Ir >></a>
         </section>
     </div>
 </body>

@@ -10,7 +10,6 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <title>DANIELFTOSTA176</title>
     <meta name="description" content="Hi." />
-    <link rel="canonical" href="/another-page.html" />
 </head>
 <body>
     <header>
